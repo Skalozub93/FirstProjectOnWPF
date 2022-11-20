@@ -1,0 +1,28 @@
+﻿<Window x:Class="FirstProjectOnWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstProjectOnWPF"
+        mc:Ignorable="d"
+        Title="F" Height="450" Width="943">
+    <Grid>
+        <Button Margin="255,75,255,76" Name="Vlad"
+               Content="0" Click="Vlad_Click">
+            <Button.Background>
+                <LinearGradientBrush  StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Color="Yellow" Offset="0"></GradientStop>
+                    <GradientStop Color="Red" Offset="0.4"></GradientStop>
+                    <GradientStop Color="Orange" Offset="0.2"></GradientStop>
+                    <GradientStop Color="Purple" Offset="0.6"></GradientStop>
+                    <GradientStop Color="Green" Offset="0.9"></GradientStop>
+                    <GradientStop Color="Blue" Offset="0"></GradientStop>
+                </LinearGradientBrush>
+            </Button.Background>
+
+        </Button>
+
+
+    </Grid>
+
+</Window>
